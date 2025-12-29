@@ -3,10 +3,10 @@ import { useParams } from "react-router-dom";
 import "./DetailImage.scss";
 
 // ✅ 상세페이지 이미지 import 
-import detailA from "../../assets/images/Detail/detail-A.png"; // 의류형
-import detailB from "../../assets/images/Detail/detail-B.png"; // 기본형
-import detailC from "../../assets/images/Detail/detail-C.png"; // 대형견
-import detailD from "../../assets/images/Detail/detail-D.png"; // 목편한형
+import detailA from "../../assets/images/Detail/detail-a.png"; // 의류형
+import detailB from "../../assets/images/Detail/detail-b.png"; // 기본형
+import detailC from "../../assets/images/Detail/detail-c.png"; // 대형견
+import detailD from "../../assets/images/Detail/detail-d.png"; // 목편한형
 
 const DetailImage = () => {
     const { productId } = useParams();
